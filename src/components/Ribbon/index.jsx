@@ -4,6 +4,8 @@ import { bool, string, oneOf } from 'prop-types';
 import { sizeModifier, positionModifier } from '../utilities/util';
 import CustomTag from '../utilities/CustomTag';
 
+import '../../../node_modules/weave-ui/src/components/ribbon/index.scss';
+
 const componentPrefix = 'weave-ribbon';
 
 /**

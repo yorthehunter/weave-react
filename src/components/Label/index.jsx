@@ -1,8 +1,9 @@
 import React from 'react';
 import { bool, string, oneOf } from 'prop-types';
-// import 'weave-ui-badge';
 import { sizeModifier, typeModifier } from '../utilities/util';
 import CustomTag from '../utilities/CustomTag';
+
+import '../../../node_modules/weave-ui/src/components/label/index.scss';
 
 const componentPrefix = 'weave-label';
 

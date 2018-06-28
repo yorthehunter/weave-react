@@ -2,6 +2,8 @@ import React from 'react';
 import { string, number } from 'prop-types';
 import CustomTag from '../utilities/CustomTag';
 
+import '../../../node_modules/weave-ui/src/components/progress-bar/index.scss';
+
 const componentPrefix = 'weave-progress';
 
 

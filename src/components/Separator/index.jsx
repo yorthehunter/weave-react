@@ -1,6 +1,9 @@
 import React from 'react';
 import { bool } from 'prop-types';
 
+import '../../../node_modules/weave-ui/src/components/separator/index.scss';
+
+
 /**
  *  Separate content, either vertically or horizontally. Finally! What the hell
  * did we ever do before this thing existed?!?

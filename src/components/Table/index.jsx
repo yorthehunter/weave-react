@@ -3,6 +3,8 @@ import { array, arrayOf, oneOf, string } from 'prop-types';
 import shortid from 'shortid';
 import CustomTag from '../utilities/CustomTag';
 
+import '../../../node_modules/weave-ui/src/components/table/index.scss';
+
 const componentPrefix = 'weave-table';
 
 const createTDs = (tdData, isHeading) => {
