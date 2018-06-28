@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component correctly renders as a link 1`] = `
+<a
+  className="weave-button"
+  href="testUrl"
+  onClick={null}
+  style={Object {}}
+  type={null}
+  value={null}
+>
+  Button
+</a>
+`;
+
+exports[`Button component correctly renders when passed an onClick function 1`] = `
+<button
+  className="weave-button"
+  href={null}
+  onClick={[MockFunction]}
+  style={Object {}}
+  type={null}
+  value={null}
+>
+  Button
+</button>
+`;
+
+exports[`Button component renders as a submit button 1`] = `
+<input
+  className="weave-button"
+  href={null}
+  onClick={null}
+  style={Object {}}
+  type="submit"
+  value="Submit Button"
+/>
+`;
+
+exports[`Button component renders with default values 1`] = `
+<button
+  className="weave-button"
+  href={null}
+  onClick={null}
+  style={Object {}}
+  type={null}
+  value={null}
+>
+  Button
+</button>
+`;

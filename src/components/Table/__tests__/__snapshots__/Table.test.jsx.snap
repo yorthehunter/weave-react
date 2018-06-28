@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table correctly renders a horizontal table 1`] = `
+<table
+  class="weave-table weave-table--basic weave-table--bordered weave-table--striped weave-table--full-width weave-table--hoverable"
+>
+  <tbody>
+    <tr>
+      <th
+        scope="row"
+        style="text-align:right"
+      >
+        heading one
+      </th>
+      <td>
+        one thing
+      </td>
+    </tr>
+    <tr>
+      <th
+        scope="row"
+        style="text-align:right"
+      >
+        heading two
+      </th>
+      <td>
+        two things
+      </td>
+    </tr>
+    <tr>
+      <th
+        scope="row"
+        style="text-align:right"
+      >
+        heading three
+      </th>
+      <td>
+        three things
+      </td>
+    </tr>
+    <tr>
+      <th
+        scope="row"
+        style="text-align:right"
+      >
+        heading four
+      </th>
+      <td>
+        four
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Table correctly renders a vertical table 1`] = `
+<table
+  class="weave-table weave-table--basic weave-table--bordered weave-table--striped weave-table--full-width weave-table--hoverable"
+>
+  <thead>
+    <tr>
+      <th>
+        heading one
+      </th>
+      <th>
+        heading two
+      </th>
+      <th>
+        heading three
+      </th>
+      <th>
+        heading four
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        one thing
+      </td>
+    </tr>
+    <tr>
+      <td>
+        two things
+      </td>
+    </tr>
+    <tr>
+      <td>
+        three things
+      </td>
+    </tr>
+    <tr>
+      <td>
+        four
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

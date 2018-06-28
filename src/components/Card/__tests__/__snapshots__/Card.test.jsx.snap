@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders correctly as hoverable 1`] = `
+<div
+  className="weave-card u-inset--md weave-card--hoverable"
+  href={null}
+  onClick={null}
+  style={Object {}}
+  type={null}
+  value={null}
+/>
+`;
+
+exports[`Card renders correctly with default values 1`] = `
+<div
+  className="weave-card u-inset--md"
+  href={null}
+  onClick={null}
+  style={Object {}}
+  type={null}
+  value={null}
+/>
+`;

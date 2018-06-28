@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown renders children as normal if they are not of type DropdownMenu or DropdownActivator 1`] = `
+<CustomTag
+  componentClasses="weave-has-dropdown"
+  componentRef={[Function]}
+  componentStyles={Object {}}
+  customClasses={null}
+  customStyles={Object {}}
+  href={null}
+  onClick={null}
+  right={false}
+  tag="span"
+  type={null}
+  value={null}
+>
+  <div
+    key=".0"
+  >
+    Hello!
+  </div>
+</CustomTag>
+`;
+
+exports[`Dropdown renders correctly with default values 1`] = `
+<span
+  className="weave-has-dropdown"
+  href={null}
+  onClick={null}
+  style={Object {}}
+  type={null}
+  value={null}
+>
+  <span
+    className="weave-dropdown-activator"
+    href={null}
+    onClick={[Function]}
+    style={
+      Object {
+        "cursor": "pointer",
+      }
+    }
+    type={null}
+    value={null}
+  >
+    Click here to open dropdown!
+  </span>
+</span>
+`;
+
+exports[`Dropdown renders no dropdown if no children are found 1`] = `
+<CustomTag
+  componentClasses="weave-has-dropdown"
+  componentRef={[Function]}
+  componentStyles={Object {}}
+  customClasses={null}
+  customStyles={Object {}}
+  href={null}
+  onClick={null}
+  right={false}
+  tag="span"
+  type={null}
+  value={null}
+/>
+`;

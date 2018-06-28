@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It renders correctly as a progress indicator 1`] = `
+<div
+  className="weave-progress"
+  href={null}
+  onClick={null}
+  style={Object {}}
+  type={null}
+  value={null}
+>
+  <div
+    className="weave-progress__determinate"
+    style={
+      Object {
+        "width": "25%",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`It renders correctly with default values 1`] = `
+<div
+  className="weave-progress"
+  href={null}
+  onClick={null}
+  style={Object {}}
+  type={null}
+  value={null}
+>
+  <div
+    className="weave-progress__indeterminate"
+    style={undefined}
+  />
+</div>
+`;

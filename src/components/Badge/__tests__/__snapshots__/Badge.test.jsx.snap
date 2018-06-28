@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge renders correctly with default values 1`] = `
+<span
+  className="weave-badge"
+  href={null}
+  onClick={null}
+  style={Object {}}
+  type={null}
+  value={null}
+/>
+`;
