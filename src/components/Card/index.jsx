@@ -3,7 +3,7 @@ import { string, node, bool } from 'prop-types';
 import CustomTag from '../utilities/CustomTag';
 import { sizeModifier } from '../utilities/util';
 
-import '../../../node_modules/weave-ui/src/components/card/index.scss';
+import 'weave-ui/src/components/card/index.scss';
 
 const componentPrefix = 'weave-card';
 

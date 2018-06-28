@@ -4,7 +4,7 @@ import CollectionItem from './CollectionItem';
 import CustomTag from '../utilities/CustomTag';
 import { sizeModifier } from '../utilities/util';
 
-import '../../../node_modules/weave-ui/src/components/collection/index.scss';
+import 'weave-ui/src/components/collection/index.scss';
 
 const componentPrefix = 'weave-collection';
 

@@ -3,7 +3,7 @@ import { oneOf, string, bool, func, node } from 'prop-types';
 import { sizeModifier, buttonTypeModifier } from '../utilities/util';
 import CustomTag from '../utilities/CustomTag';
 
-import '../../../node_modules/weave-ui/src/components/button/index.scss';
+import 'weave-ui/src/components/button/index.scss';
 
 const componentPrefix = 'weave-button';
 

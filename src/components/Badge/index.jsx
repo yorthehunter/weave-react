@@ -4,7 +4,7 @@ import { string, oneOf } from 'prop-types';
 import { positionModifier } from '../utilities/util';
 import CustomTag from '../utilities/CustomTag';
 
-import '../../../node_modules/weave-ui/src/components/badge/index.scss';
+import 'weave-ui/src/components/badge/index.scss';
 
 const componentPrefix = 'weave-badge';
 

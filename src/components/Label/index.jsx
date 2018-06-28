@@ -3,7 +3,7 @@ import { bool, string, oneOf } from 'prop-types';
 import { sizeModifier, typeModifier } from '../utilities/util';
 import CustomTag from '../utilities/CustomTag';
 
-import '../../../node_modules/weave-ui/src/components/label/index.scss';
+import 'weave-ui/src/components/label/index.scss';
 
 const componentPrefix = 'weave-label';
 

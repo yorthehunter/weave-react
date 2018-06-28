@@ -4,7 +4,7 @@ import { string, bool, node } from 'prop-types';
 import Icon from '../utilities/Icon';
 import CustomTag from '../utilities/CustomTag';
 
-import '../../../node_modules/weave-ui/src/components/tag/index.scss';
+import 'weave-ui/src/components/tag/index.scss';
 
 const componentPrefix = 'weave-tag';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { bool } from 'prop-types';
 
-import '../../../node_modules/weave-ui/src/components/separator/index.scss';
+import 'weave-ui/src/components/separator/index.scss';
 
 
 /**

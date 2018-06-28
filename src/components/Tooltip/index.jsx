@@ -3,7 +3,7 @@ import { string, bool, node } from 'prop-types';
 import classNames from 'classnames';
 import { positionModifier } from '../utilities/util';
 
-import '../../../node_modules/weave-ui/src/components/tooltip/index.scss';
+import 'weave-ui/src/components/tooltip/index.scss';
 
 const componentPrefix = 'weave-has-tooltip';
 

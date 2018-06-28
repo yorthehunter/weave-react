@@ -2,7 +2,7 @@ import React from 'react';
 import { string, node } from 'prop-types';
 import CustomTag from '../utilities/CustomTag';
 
-import '../../../node_modules/weave-ui/src/components/popover/index.scss';
+import 'weave-ui/src/components/popover/index.scss';
 
 const componentPrefix = 'weave-has-popover';
 

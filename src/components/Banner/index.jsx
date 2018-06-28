@@ -5,7 +5,7 @@ import { sizeModifier, alertStyleModifier } from '../utilities/util';
 import Icon from '../utilities/Icon';
 import CustomTag from '../utilities/CustomTag';
 
-import '../../../node_modules/weave-ui/src/components/banner/index.scss';
+import 'weave-ui/src/components/banner/index.scss';
 
 const componentPrefix = 'weave-banner';
 

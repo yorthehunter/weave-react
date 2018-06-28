@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import { string } from 'prop-types';
 import { sizeModifier } from '../utilities/util';
 
-import '../../../node_modules/weave-ui/src/components/spinner/index.scss';
+import 'weave-ui/src/components/spinner/index.scss';
 
 const componentPrefix = 'weave-spinner';
 
