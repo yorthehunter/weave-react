@@ -4,3 +4,8 @@ node_modules
 yarn-error.log
 .sass-cache
 .gitignore
+
+# Style guide
+/docs
+setupStyleguidist.js
+styleguide.config.js
