@@ -22,7 +22,6 @@ const Button = (props) => {
     onClick,
     disabled,
     responsive,
-    fullWidth,
   } = props;
 
   const componentClasses = [
@@ -30,7 +29,6 @@ const Button = (props) => {
     size && `${componentPrefix}--${size}`,
     type && `${componentPrefix}--${type}`,
     responsive && `${componentPrefix}--responsive`,
-    fullWidth && `${componentPrefix}--full-width`,
     disabled && 'is-disabled',
   ];
 
@@ -67,8 +65,6 @@ const propTypes = {
   ]),
   /** If true, disables button */
   disabled: bool,
-  /** If true, forces a width of 100% */
-  fullWidth: bool,
   /** If true, creates a responsive button */
   responsive: bool,
   /** Generates a submit input element */
@@ -85,7 +81,6 @@ const defaultProps = {
   size: null,
   disabled: false,
   responsive: false,
-  fullWidth: false,
   submit: false,
   onClick: undefined,
 };

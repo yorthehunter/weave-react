@@ -3,6 +3,11 @@ Default Button
 <Button>Hello</Button>
 ```
 
+Disabled Button
+```js
+<Button disabled>Hello</Button>
+```
+
 Button styles
 ```js
 <div>
@@ -26,10 +31,22 @@ Button sizes
   <Button size="md">Hello</Button>
   <br />
   <Button size="lg">Hello</Button>
+  <br />
+  <Button size="full-width">Hello</Button>
 </div>
+```
+
+Responsive Button (resize window to see)
+```js
+<Button responsive>Hello</Button>
 ```
 
 Submit button
 ```js
 <Button submit>Hello</Button>
+```
+
+OnClick function
+```js
+<Button onClick={() => alert('Clicked!')}>Hello</Button>
 ```

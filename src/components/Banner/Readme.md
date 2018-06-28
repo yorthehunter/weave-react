@@ -1,25 +1,30 @@
-Info Banner:
+Banner types
 ```js
-<Banner visible={true} type="info">Hello</Banner>
+<React.Fragment>
+  <Banner visible={true} type="info">Hello</Banner>
+  <Banner visible={true} type="warning">Hello</Banner>
+  <Banner visible={true} type="error">Hello</Banner>
+  <Banner visible={true} type="success">Hello</Banner>
+  <Banner visible={true}>Hello</Banner>
+</React.Fragment>
 ```
 
-Warning Banner:
-```js
-<Banner visible={true} type="warning">Hello</Banner>
-```
-
-Error Banner:
-```js
-<Banner visible={true} type="error">Hello</Banner>
-```
-
-Success Banner:
-```js
-<Banner visible={true} type="success">Hello</Banner>
-```
-
-Banner using `content` prop:
-
+Banner using `content` prop
 ```js
 <Banner type="info" visible={true} content="Hello" />
+```
+
+Flat Banner
+```js
+<Banner type="info" visible={true} flat content="Hello" />
+```
+
+Render HTML inside Banner
+```js
+<Banner type="info" visible={true} html="<b>Hello</b>" />
+```
+
+Non-dismissable Banner
+```js
+<Banner visible={true} type="success" dismissable={false}>Hello</Banner>
 ```
