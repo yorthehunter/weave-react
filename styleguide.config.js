@@ -10,7 +10,6 @@ module.exports = {
     '**/DropdownMenu.jsx',
     '**/DropdownActivator.jsx',
   ],
-
   require: [
     path.resolve(__dirname, './setupStyleguidist.js'),
     path.join(__dirname, './node_modules/weave-ui/src/core/index.scss'),
