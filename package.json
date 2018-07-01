@@ -2,7 +2,7 @@
   "name": "weave-react",
   "version": "1.0.0",
   "description": "Weave React Components",
-  "main": "src/index.js",
+  "main": "dist/main.js",
   "repository": "git@github.com:yorthehunter/weave-react.git",
   "author": "yorthehunter <boru.design@gmail.com>",
   "license": "UNLICENSED",
