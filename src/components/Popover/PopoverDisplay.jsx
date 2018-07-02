@@ -4,7 +4,7 @@ import CustomTag from '../utilities/CustomTag';
 
 const componentPrefix = 'weave-popover';
 
-const PopoverDisplay = (props) => {
+export const PopoverDisplay = (props) => {
   const {
     placement,
     left,

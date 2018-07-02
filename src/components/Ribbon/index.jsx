@@ -11,7 +11,7 @@ const componentPrefix = 'weave-ribbon';
 /**
  */
 
-const Ribbon = (props) => {
+export const Ribbon = (props) => {
   const {
     size,
     position,

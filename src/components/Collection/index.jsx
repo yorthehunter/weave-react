@@ -13,7 +13,7 @@ const componentPrefix = 'weave-collection';
  * from other elements on the page.
  */
 
-const Collection = (props) => {
+export const Collection = (props) => {
   const {
     inset,
     isHoverable,

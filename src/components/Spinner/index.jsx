@@ -12,7 +12,7 @@ const componentPrefix = 'weave-spinner';
  * happen after the process completes (e.g. a new UI element will appear).
  */
 
-const Spinner = (props) => {
+export const Spinner = (props) => {
   const {
     size,
   } = props;

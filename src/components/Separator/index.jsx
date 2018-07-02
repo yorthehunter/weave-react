@@ -9,7 +9,7 @@ import 'weave-ui/src/components/separator/index.scss';
  * did we ever do before this thing existed?!?
  */
 
-const Separator = (props) => (
+export const Separator = (props) => (
   props.horizontal ?
     <hr className="weave-separator weave-separator--horizontal" />
     :

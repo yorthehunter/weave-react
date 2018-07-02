@@ -62,7 +62,7 @@ const HorizontalTable = ({ headings, data }) => (
   </tbody>
 );
 
-const Table = (props) => {
+export const Table = (props) => {
   const {
     type,
     orientation,

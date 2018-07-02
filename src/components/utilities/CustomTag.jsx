@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import { oneOfType, array, string, object, node, func } from 'prop-types';
 
-const CustomTag = (props) => {
+export const CustomTag = (props) => {
   const {
     componentStyles,
     componentClasses,

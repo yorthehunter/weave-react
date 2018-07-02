@@ -4,7 +4,7 @@ import CustomTag from '../utilities/CustomTag';
 
 const componentPrefix = 'weave-dropdown-activator';
 
-const DropdownActivator = (props) => {
+export const DropdownActivator = (props) => {
   const componentClasses =
     `${componentPrefix}`;
 

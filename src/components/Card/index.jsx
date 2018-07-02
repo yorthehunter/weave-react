@@ -11,7 +11,7 @@ const componentPrefix = 'weave-card';
  * Card
  */
 
-const Card = (props) => {
+export const Card = (props) => {
   const {
     isHoverable,
     inset,

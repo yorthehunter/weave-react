@@ -11,7 +11,7 @@ const componentPrefix = 'weave-collection__item';
  * produce a UI indicator, typically a color representation of a status.
  */
 
-const CollectionItem = (props) => {
+export const CollectionItem = (props) => {
   const {
     inset,
     indicator,

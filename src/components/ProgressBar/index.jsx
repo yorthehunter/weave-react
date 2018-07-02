@@ -13,7 +13,7 @@ const componentPrefix = 'weave-progress';
  * style, based on whether the progress is known or unknown, respectively.
  */
 
-const ProgressBar = (props) => {
+export const ProgressBar = (props) => {
   const {
     progress,
   } = props;

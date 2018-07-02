@@ -13,7 +13,7 @@ const componentPrefix = 'weave-has-tooltip';
  * is usually a hint at a function or brief description of something.
  */
 
-const Tooltip = (props) => {
+export const Tooltip = (props) => {
   const {
     content,
     children,

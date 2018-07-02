@@ -12,7 +12,7 @@ const componentPrefix = 'weave-button';
  * Use buttons to cause actions, not to link between pages.
  */
 
-const Button = (props) => {
+export const Button = (props) => {
   const {
     size,
     type,

@@ -6,7 +6,7 @@ import 'weave-ui/src/components/dropdown/index.scss';
 
 const componentPrefix = 'weave-has-dropdown';
 
-export default class Dropdown extends React.Component {
+export class Dropdown extends React.Component {
   constructor() {
     super();
     this.openDropdown = this.openDropdown.bind(this);
@@ -96,3 +96,4 @@ const propTypes = {
 
 Dropdown.defaultProps = defaultProps;
 Dropdown.propTypes = propTypes;
+export default Dropdown;

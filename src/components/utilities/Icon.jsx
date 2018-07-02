@@ -2,7 +2,7 @@ import React from 'react';
 import { string } from 'prop-types';
 import iconPaths from './iconPaths';
 
-const Icon = (props) => {
+export const Icon = (props) => {
   const {
     width,
     height,

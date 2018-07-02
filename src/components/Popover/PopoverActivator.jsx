@@ -4,7 +4,7 @@ import CustomTag from '../utilities/CustomTag';
 
 const componentPrefix = 'weave-popover-activator';
 
-const PopoverActivator = (props) => {
+export const PopoverActivator = (props) => {
   const componentClasses =
     `${componentPrefix} ${props.clickIndication ? 'weave-popover-click-indication' : ''}`;
 

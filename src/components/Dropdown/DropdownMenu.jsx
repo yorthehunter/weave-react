@@ -4,7 +4,7 @@ import CustomTag from '../utilities/CustomTag';
 
 const componentPrefix = 'weave-dropdown-menu';
 
-const DropdownMenu = (props) => {
+export const DropdownMenu = (props) => {
   const {
     children,
     right,

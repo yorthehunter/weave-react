@@ -10,7 +10,7 @@ const componentPrefix = 'weave-label';
 /**
  */
 
-const Label = (props) => {
+export const Label = (props) => {
   const {
     content,
     children,
