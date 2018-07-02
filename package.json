@@ -7,10 +7,6 @@
   "author": "yorthehunter <boru.design@gmail.com>",
   "license": "UNLICENSED",
   "dependencies": {
-    "classnames": "^2.2.6",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "weave-ui": "https://github.com/yorthehunter/weave-ui",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-plugin-add-module-exports": "^0.2.1",
@@ -18,10 +14,19 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-react-es6-displayname": "^1.0.0-beta1.4",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "classnames": "^2.2.6",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "weave-ui": "https://github.com/yorthehunter/weave-ui"
   },
   "devDependencies": {
     "css-loader": "^0.28.11",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.10.0",
     "file-loader": "^1.1.11",
     "node-sass": "^4.9.0",
     "react-styleguidist": "^7.0.19",
