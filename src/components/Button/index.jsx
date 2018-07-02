@@ -59,6 +59,7 @@ const propTypes = {
     'sm',
     'md',
     'lg',
+    'full-width',
     null,
   ]),
   /** If true, disables button */

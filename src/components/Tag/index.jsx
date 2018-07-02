@@ -53,7 +53,7 @@ class Tag extends React.Component {
               className={`${componentPrefix}__close`}
               onClick={this.removeTag}
             >
-              <Icon name="close" color="var(--font-color)" width="12px" height="12px" />
+              <Icon name="close" color="var(--font-color)" width={12} height={12} />
             </button>
           }
         </CustomTag>

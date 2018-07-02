@@ -22,5 +22,5 @@ The `<Icon>` component uses `iconPaths.js` to store SVG paths for icons. This sy
 
 Color / height / width modifiers
 ```js
-<Icon name="stitchFixLogo" color="green" height={48} width={48} />
+<Icon name="stitchFixLogo" color="var(--accent-color)" height={48} width={48} />
 ```

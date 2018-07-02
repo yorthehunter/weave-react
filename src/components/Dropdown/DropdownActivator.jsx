@@ -22,12 +22,13 @@ export const DropdownActivator = (props) => {
 
 const defaultProps = {
   tag: 'span',
+  onClick: null,
 };
 
 const propTypes = {
   tag: string,
   children: node.isRequired,
-  onClick: func.isRequired,
+  onClick: func,
 };
 
 DropdownActivator.displayName = 'DropdownActivator';

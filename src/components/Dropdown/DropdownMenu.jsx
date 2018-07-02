@@ -4,11 +4,15 @@ import CustomTag from '../utilities/CustomTag';
 
 const componentPrefix = 'weave-dropdown-menu';
 
+export const DropdownMenuItem = ({ content }) => (
+  <li className={`${componentPrefix}__item`}>{content}</li>
+);
+
 export const DropdownMenu = (props) => {
   const {
     children,
     right,
-    menuItems,
+    displayAsMenuItems,
     dropdownVisible,
   } = props;
 
@@ -23,11 +27,9 @@ export const DropdownMenu = (props) => {
         componentStyles={right ? { right: 0 } : {}}
       >
         {
-          menuItems ?
+          displayAsMenuItems ?
             React.Children.map(children, child => (
-              <li className={`${componentPrefix}__item`}>
-                {child}
-              </li>
+              <DropdownMenuItem content={child} />
             ))
             :
             children
@@ -40,14 +42,14 @@ export const DropdownMenu = (props) => {
 
 const defaultProps = {
   tag: 'ul',
-  menuItems: true,
+  displayAsMenuItems: false,
   dropdownVisible: false,
   right: false,
 };
 
 const propTypes = {
   tag: string,
-  menuItems: bool,
+  displayAsMenuItems: bool,
   children: node.isRequired,
   dropdownVisible: bool,
   right: bool,
@@ -56,4 +58,7 @@ const propTypes = {
 DropdownMenu.displayName = 'DropdownMenu';
 DropdownMenu.defaultProps = defaultProps;
 DropdownMenu.propTypes = propTypes;
+DropdownMenuItem.propTypes = {
+  content: node.isRequired,
+};
 export default DropdownMenu;

@@ -6629,7 +6629,7 @@ wcwidth@^1.0.1:
 
 "weave-ui@https://github.com/yorthehunter/weave-ui":
   version "1.0.0"
-  resolved "https://github.com/yorthehunter/weave-ui#6bb8eadfb956e9ecb6259ced5f080706b968ddfe"
+  resolved "https://github.com/yorthehunter/weave-ui#c1d930557f9b8c73c51c67362dd0ec0c1a5a2b4c"
 
 webpack-cli@^3.0.8:
   version "3.0.8"

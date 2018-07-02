@@ -1,5 +1,5 @@
 import React from 'react';
-import { string } from 'prop-types';
+import { oneOfType, number, string } from 'prop-types';
 import iconPaths from './iconPaths';
 
 export const Icon = (props) => {
@@ -26,14 +26,16 @@ export const Icon = (props) => {
 };
 
 const defaultProps = {
-  width: '24',
-  height: '24',
+  width: 24,
+  height: 24,
   color: '#000000',
 };
 
+const numType = oneOfType([string, number]);
+
 const propTypes = {
-  width: string,
-  height: string,
+  width: numType,
+  height: numType,
   name: string.isRequired,
   color: string,
 };
