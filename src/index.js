@@ -1,1 +1,1 @@
-export { Badge } from './components/Badge/index.jsx';
+export { Badge } from './components/Badge';
