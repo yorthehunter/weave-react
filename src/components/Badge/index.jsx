@@ -14,7 +14,7 @@ const componentPrefix = 'weave-badge';
  * often to signify that action is required because of a change in status.
  */
 
-const Badge = (props) => {
+export const Badge = (props) => {
   const {
     position,
     content,
