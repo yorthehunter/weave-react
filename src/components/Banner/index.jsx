@@ -12,7 +12,7 @@ const componentPrefix = 'weave-banner';
  * the top of the page, just below the nav (e.g. a flash message in Rails).
  */
 
-export class Banner extends React.Component {
+class Banner extends React.Component {
   constructor(props) {
     super();
 

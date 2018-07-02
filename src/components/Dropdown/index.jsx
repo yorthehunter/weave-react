@@ -5,7 +5,7 @@ import CustomTag from '../utilities/CustomTag';
 
 const componentPrefix = 'weave-has-dropdown';
 
-export class Dropdown extends React.Component {
+class Dropdown extends React.Component {
   constructor() {
     super();
     this.openDropdown = this.openDropdown.bind(this);

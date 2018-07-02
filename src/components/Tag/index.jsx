@@ -11,7 +11,7 @@ const componentPrefix = 'weave-tag';
 /**
  */
 
-export class Tag extends React.Component {
+class Tag extends React.Component {
   constructor(props) {
     super();
 
