@@ -1,8 +1,7 @@
 import React from 'react';
 import { string, bool, node } from 'prop-types';
-import CustomTag from '../utilities/CustomTag';
-
 import 'weave-ui/src/components/dropdown/index.scss';
+import CustomTag from '../utilities/CustomTag';
 
 const componentPrefix = 'weave-has-dropdown';
 

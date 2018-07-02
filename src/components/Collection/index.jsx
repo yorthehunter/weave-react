@@ -1,10 +1,9 @@
 import React from 'react';
 import { string, oneOf, node, bool } from 'prop-types';
+import 'weave-ui/src/components/collection/index.scss';
 import CollectionItem from './CollectionItem';
 import CustomTag from '../utilities/CustomTag';
 import { sizeModifier } from '../utilities/util';
-
-import 'weave-ui/src/components/collection/index.scss';
 
 const componentPrefix = 'weave-collection';
 

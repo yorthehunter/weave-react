@@ -1,11 +1,9 @@
 import React from 'react';
 import { oneOf, string, bool, node } from 'prop-types';
-
+import 'weave-ui/src/components/banner/index.scss';
 import { sizeModifier, alertStyleModifier } from '../utilities/util';
 import Icon from '../utilities/Icon';
 import CustomTag from '../utilities/CustomTag';
-
-import 'weave-ui/src/components/banner/index.scss';
 
 const componentPrefix = 'weave-banner';
 

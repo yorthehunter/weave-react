@@ -28,11 +28,11 @@ export {
   positionModifier,
   alertStyleModifier,
   camelCaseToDash,
-} from './components/utilities/util'
+} from './components/utilities/util';
 export {
   types,
   buttonTypes,
   sizes,
   positions,
   alerts,
-} from './components/utilities/constants'
+} from './components/utilities/constants';

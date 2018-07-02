@@ -1,9 +1,7 @@
 import React from 'react';
 import { oneOf, string, bool, func, node } from 'prop-types';
-import { sizeModifier, buttonTypeModifier } from '../utilities/util';
-import CustomTag from '../utilities/CustomTag';
-
 import 'weave-ui/src/components/button/index.scss';
+import CustomTag from '../utilities/CustomTag';
 
 const componentPrefix = 'weave-button';
 
