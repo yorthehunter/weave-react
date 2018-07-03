@@ -17,7 +17,7 @@ export { Separator } from './components/Separator';
 export { Spinner } from './components/Spinner';
 export { Table } from './components/Table';
 export { Tooltip } from './components/Tooltip';
-export { CustomTag } from './components/utilities/CustomTag';
+export { CustomTag } from './components/CustomTag';
 export { Icon } from './components/Icon';
 export {
   typeModifier,
