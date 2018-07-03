@@ -49,7 +49,7 @@ const propTypes = {
   children: node,
   href: string,
   value: string,
-  type: string,
+  type: oneOfType([string, array]),
   componentRef: func,
   onClick: func,
 };

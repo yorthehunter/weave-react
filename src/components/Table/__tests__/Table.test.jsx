@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, shallow } from 'enzyme';
+import { render, mount } from 'enzyme';
 import toJson from 'enzyme-to-json';
 import Table from '../';
 
@@ -31,8 +31,8 @@ describe('Table', () => {
     expect(rendered).toMatchSnapshot();
   });
 
-  it('renders a basic table when passed a basic type', () => {
-    const wrapper = render(<Table {...props} type="basic" />);
-    expect(wrapper.find('.weave-table--basic').hasClass('weave-table--striped')).toEqual(false);
+  it('correctly renders with modifiers', () => {
+    const wrapper = mount(<Table {...props} type={['striped', 'hoverable']} />);
+    expect(wrapper.find('.weave-table').hasClass('weave-table--striped weave-table--hoverable')).toEqual(true);
   });
 });

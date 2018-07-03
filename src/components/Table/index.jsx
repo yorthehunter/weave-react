@@ -1,6 +1,7 @@
 import React from 'react';
-import { array, arrayOf, oneOf, string } from 'prop-types';
+import { oneOfType, array, arrayOf, oneOf, string } from 'prop-types';
 import shortid from 'shortid';
+import classnames from 'classnames';
 import CustomTag from '../utilities/CustomTag';
 
 import 'weave-ui/src/components/table/index.scss';
@@ -69,20 +70,14 @@ export const Table = (props) => {
     size,
   } = props;
 
-  const tableType = (modifier) => {
-    if (Array.isArray(modifier)) {
-      const modifiers = modifier.map((item) => `${componentPrefix}--${item}`);
-      return modifiers;
-    } else if (modifier) {
-      return `${componentPrefix}--${modifier}`;
-    } else {
-      return null;
-    }
+  const tableType = (modifiers) => {
+    let arr = modifiers.map((modifier) => `${componentPrefix}--${modifier}`);
+    return classnames(arr);
   };
 
   const componentClasses = [
     componentPrefix,
-    tableType(type),
+    type && tableType(type),
   ];
 
   return (
@@ -108,7 +103,7 @@ Table.defaultProps = {
 };
 Table.propTypes = {
   orientation: oneOf(['vertical', 'horizontal']),
-  type: string,
+  type: oneOfType([string, array]),
   size: string,
 };
 const commonDefaultProps = {
