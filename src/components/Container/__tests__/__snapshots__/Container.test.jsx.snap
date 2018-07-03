@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It renders correctly with a custom span tag 1`] = `
+<span
+  className="weave-container"
+  href={null}
+  onClick={null}
+  style={Object {}}
+  type={null}
+  value={null}
+/>
+`;
+
+exports[`It renders correctly with default values 1`] = `
+<div
+  className="weave-container"
+  href={null}
+  onClick={null}
+  style={Object {}}
+  type={null}
+  value={null}
+/>
+`;
+
+exports[`It renders correctly with values set for xs size and left positioning 1`] = `
+<div
+  className="weave-container weave-container--xs weave-container--left"
+  href={null}
+  onClick={null}
+  style={Object {}}
+  type={null}
+  value={null}
+/>
+`;

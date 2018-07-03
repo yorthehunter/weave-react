@@ -7953,7 +7953,7 @@ wcwidth@^1.0.1:
 
 "weave-ui@https://github.com/yorthehunter/weave-ui":
   version "1.0.0"
-  resolved "https://github.com/yorthehunter/weave-ui#c1d930557f9b8c73c51c67362dd0ec0c1a5a2b4c"
+  resolved "https://github.com/yorthehunter/weave-ui#e0d4f3dd6a5300ecf3a9cf09ea4d6c8c7c468fa1"
 
 webidl-conversions@^4.0.2:
   version "4.0.2"
