@@ -6,6 +6,7 @@ yarn-error.log
 .gitignore
 __mocks__
 setupTests.js
+/coverage/
 
 # Style guide
 /docs
