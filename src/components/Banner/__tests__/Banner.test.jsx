@@ -1,6 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { mount } from 'enzyme';
+import { mount, shallow } from 'enzyme';
+import toJson from 'enzyme-to-json';
 import Banner from '../';
 
 describe('Banner renders correctly', () => {
@@ -10,13 +11,25 @@ describe('Banner renders correctly', () => {
   });
 
   it('with content passed as a prop', () => {
-    const rendered = renderer.create(<Banner visible content="Here's some content!" />).toJSON();
+    const wrapper = shallow(<Banner visible content="Here's some content!" />);
+    const rendered = toJson(wrapper);
     expect(rendered).toMatchSnapshot();
   });
 
   it('with content passed as a child', () => {
     const rendered = renderer.create(<Banner visible>Test content</Banner>).toJSON();
     expect(rendered).toMatchSnapshot();
+  });
+
+  it('with html content', () => {
+    const rendered = renderer.create(<Banner visible html="<strong>Content!</strong>" />).toJSON();
+    expect(rendered).toMatchSnapshot();
+  });
+
+  it('as null if banner is not visible', () => {
+    const bannerClass = '.weave-banner';
+    const wrapper = mount(<Banner>Banner</Banner>);
+    expect(wrapper.find(bannerClass)).toHaveLength(0);
   });
 });
 
@@ -37,17 +50,19 @@ describe('Banner', () => {
     expect(wrapper.find(bannerClass).hasClass('weave-banner--error')).toEqual(false);
   });
 
+  it('is responsive', () => {
+    wrapper.setProps({ responsive: true });
+    expect(wrapper.find(bannerClass).hasClass('weave-banner--responsive')).toEqual(true);
+  });
+
+  it('is flat', () => {
+    wrapper.setProps({ flat: true });
+    expect(wrapper.find(bannerClass).hasClass('weave-banner--flat')).toEqual(true);
+  });
+
   it('removes itself when close button clicked', () => {
     expect(wrapper.find(bannerClass)).toHaveLength(1);
     wrapper.find('button').simulate('click');
-    expect(wrapper.find(bannerClass)).toHaveLength(0);
-  });
-});
-
-describe('Banner renders null', () => {
-  it('renders null if banner is not visible', () => {
-    const bannerClass = '.weave-banner';
-    const wrapper = mount(<Banner>Banner</Banner>);
     expect(wrapper.find(bannerClass)).toHaveLength(0);
   });
 });

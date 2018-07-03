@@ -89,6 +89,53 @@ exports[`Banner renders correctly with content passed as a child 1`] = `
 `;
 
 exports[`Banner renders correctly with content passed as a prop 1`] = `
+<CustomTag
+  className={null}
+  componentClasses={
+    Array [
+      "weave-banner",
+      "",
+      "",
+      false,
+      false,
+    ]
+  }
+  componentRef={null}
+  componentStyles={Object {}}
+  content="Here's some content!"
+  dismissable={true}
+  flat={false}
+  href={null}
+  html={null}
+  onClick={null}
+  responsive={false}
+  size={null}
+  style={Object {}}
+  tag="div"
+  type={null}
+  value={null}
+  visible={true}
+>
+  <p
+    className="weave-banner__message"
+  >
+    Here's some content!
+  </p>
+  <button
+    className="weave-banner__close"
+    onClick={[Function]}
+  >
+    <Icon
+      color="var(--font-color)"
+      height={24}
+      name="close"
+      width={24}
+    />
+  </button>
+</CustomTag>
+`;
+
+exports[`Banner renders correctly with html content 1`] = `
 <div
   className="weave-banner"
   href={null}
@@ -99,9 +146,12 @@ exports[`Banner renders correctly with content passed as a prop 1`] = `
 >
   <p
     className="weave-banner__message"
-  >
-    Here's some content!
-  </p>
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<strong>Content!</strong>",
+      }
+    }
+  />
   <button
     className="weave-banner__close"
     onClick={[Function]}
