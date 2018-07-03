@@ -2,7 +2,7 @@ import React from 'react';
 import { oneOf, string, bool, node } from 'prop-types';
 import 'weave-ui/src/components/banner/index.scss';
 import { sizeModifier, alertStyleModifier } from '../utilities/util';
-import Icon from '../utilities/Icon';
+import Icon from '../Icon';
 import CustomTag from '../utilities/CustomTag';
 
 const componentPrefix = 'weave-banner';
@@ -12,7 +12,7 @@ const componentPrefix = 'weave-banner';
  * the top of the page, just below the nav (e.g. a flash message in Rails).
  */
 
-class Banner extends React.Component {
+export class Banner extends React.Component {
   constructor(props) {
     super();
 

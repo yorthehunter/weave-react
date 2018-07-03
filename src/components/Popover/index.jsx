@@ -6,7 +6,7 @@ import 'weave-ui/src/components/popover/index.scss';
 
 const componentPrefix = 'weave-has-popover';
 
-class Popover extends React.Component {
+export class Popover extends React.Component {
   constructor() {
     super();
     this.openPopover = this.openPopover.bind(this);

@@ -1,3 +1,5 @@
+export const points = '0 0 24 0 24 24 0 24';
+
 export const iconPaths = {
   dropdown: 'M18 10.0049438 12 15.99646 6 10.0049438 Z',
 

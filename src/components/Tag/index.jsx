@@ -1,7 +1,7 @@
 import React from 'react';
 import { string, bool, node } from 'prop-types';
 // import '../../weave/components/tag';
-import Icon from '../utilities/Icon';
+import Icon from '../Icon';
 import CustomTag from '../utilities/CustomTag';
 
 import 'weave-ui/src/components/tag/index.scss';
@@ -11,7 +11,7 @@ const componentPrefix = 'weave-tag';
 /**
  */
 
-class Tag extends React.Component {
+export class Tag extends React.Component {
   constructor(props) {
     super();
 
