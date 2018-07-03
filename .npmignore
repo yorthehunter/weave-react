@@ -4,6 +4,8 @@ node_modules
 yarn-error.log
 .sass-cache
 .gitignore
+__mocks__
+setupTests.js
 
 # Style guide
 /docs

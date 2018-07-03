@@ -31,7 +31,6 @@ exports[`It renders correctly with default values 1`] = `
 >
   <div
     className="weave-progress__indeterminate"
-    style={undefined}
   />
 </div>
 `;

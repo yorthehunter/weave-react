@@ -2,7 +2,7 @@
 
 exports[`Table correctly renders a horizontal table 1`] = `
 <table
-  class="weave-table weave-table--basic weave-table--bordered weave-table--striped weave-table--full-width weave-table--hoverable"
+  class="weave-table"
 >
   <tbody>
     <tr>
@@ -55,7 +55,7 @@ exports[`Table correctly renders a horizontal table 1`] = `
 
 exports[`Table correctly renders a vertical table 1`] = `
 <table
-  class="weave-table weave-table--basic weave-table--bordered weave-table--striped weave-table--full-width weave-table--hoverable"
+  class="weave-table"
 >
   <thead>
     <tr>

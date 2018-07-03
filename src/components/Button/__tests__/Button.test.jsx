@@ -13,7 +13,7 @@ describe('Button component', () => {
   });
 
   it('handles disabled state', () => {
-    wrapper.setProps({ isDisabled: true });
+    wrapper.setProps({ disabled: true });
     expect(wrapper.find(buttonClass).hasClass('is-disabled')).toEqual(true);
   });
 

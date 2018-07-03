@@ -2,7 +2,7 @@
 
 exports[`Card renders correctly as hoverable 1`] = `
 <div
-  className="weave-card u-inset--md weave-card--hoverable"
+  className="weave-card p--md weave-card--hoverable"
   href={null}
   onClick={null}
   style={Object {}}
@@ -13,7 +13,7 @@ exports[`Card renders correctly as hoverable 1`] = `
 
 exports[`Card renders correctly with default values 1`] = `
 <div
-  className="weave-card u-inset--md"
+  className="weave-card p--md"
   href={null}
   onClick={null}
   style={Object {}}
