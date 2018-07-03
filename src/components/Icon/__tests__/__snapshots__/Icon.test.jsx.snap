@@ -27,5 +27,3 @@ exports[`Icon renders correctly 1`] = `
 `;
 
 exports[`Icon renders null if name is not valid 1`] = `""`;
-
-exports[`Icon renders null if name is not valid 2 1`] = `""`;

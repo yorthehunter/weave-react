@@ -1,6 +1,7 @@
 import {
   classModifier,
   buttonTypeModifier,
+  typeModifier,
   sizeModifier,
   positionModifier,
   alertStyleModifier,
@@ -20,6 +21,11 @@ test('classModifier()', () => {
 test('buttonTypeModifier()', () => {
   expect(buttonTypeModifier('primary', prefix, null)).toEqual('prefix--primary');
   expect(buttonTypeModifier(null, prefix, 'default')).toEqual('prefix--default');
+});
+
+test('typeModifier()', () => {
+  expect(typeModifier('error', prefix, null)).toEqual('prefix--error');
+  expect(typeModifier(null, prefix, 'default')).toEqual('prefix--default');
 });
 
 test('sizeModifier()', () => {
