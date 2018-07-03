@@ -2,7 +2,7 @@ import React from 'react';
 import { oneOfType, array, arrayOf, oneOf, string } from 'prop-types';
 import shortid from 'shortid';
 import classnames from 'classnames';
-import CustomTag from '../utilities/CustomTag';
+import CustomTag from '../CustomTag';
 
 import 'weave-ui/src/components/table/index.scss';
 

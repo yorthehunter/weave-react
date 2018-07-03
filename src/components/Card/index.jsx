@@ -1,7 +1,7 @@
 import React from 'react';
 import { string, node, bool } from 'prop-types';
 import 'weave-ui/src/components/card/index.scss';
-import CustomTag from '../utilities/CustomTag';
+import CustomTag from '../CustomTag';
 import { sizeModifier } from '../utilities/util';
 
 const componentPrefix = 'weave-card';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { bool, string, oneOf } from 'prop-types';
 import { sizeModifier, typeModifier } from '../utilities/util';
-import CustomTag from '../utilities/CustomTag';
+import CustomTag from '../CustomTag';
 
 import 'weave-ui/src/components/label/index.scss';
 

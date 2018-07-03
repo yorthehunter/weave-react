@@ -1,6 +1,6 @@
 import React from 'react';
 import { string, node, bool } from 'prop-types';
-import CustomTag from '../utilities/CustomTag';
+import CustomTag from '../CustomTag';
 
 const componentPrefix = 'weave-dropdown-menu';
 

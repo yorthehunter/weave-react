@@ -1,6 +1,6 @@
 import React from 'react';
 import { string, oneOf, oneOfType, bool, node } from 'prop-types';
-import CustomTag from '../utilities/CustomTag';
+import CustomTag from '../CustomTag';
 import { sizeModifier } from '../utilities/util';
 
 const componentPrefix = 'weave-collection__item';

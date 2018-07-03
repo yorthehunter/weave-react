@@ -1,2 +1,1 @@
-import './CustomTag';
 import './util';

@@ -1,12 +1,12 @@
 import React from 'react';
 import { string, node } from 'prop-types';
-import CustomTag from '../utilities/CustomTag';
+import CustomTag from '../CustomTag';
 
 import 'weave-ui/src/components/popover/index.scss';
 
 const componentPrefix = 'weave-has-popover';
 
-class Popover extends React.Component {
+export default class Popover extends React.Component {
   constructor() {
     super();
     this.openPopover = this.openPopover.bind(this);
@@ -88,4 +88,4 @@ const propTypes = {
 
 Popover.defaultProps = defaultProps;
 Popover.propTypes = propTypes;
-export default Popover;
+export { Popover };

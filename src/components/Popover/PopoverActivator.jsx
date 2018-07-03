@@ -1,6 +1,6 @@
 import React from 'react';
 import { string, node, bool, func } from 'prop-types';
-import CustomTag from '../utilities/CustomTag';
+import CustomTag from '../CustomTag';
 
 const componentPrefix = 'weave-popover-activator';
 

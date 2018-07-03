@@ -1,11 +1,11 @@
 import React from 'react';
 import { string, bool, node } from 'prop-types';
 import 'weave-ui/src/components/dropdown/index.scss';
-import CustomTag from '../utilities/CustomTag';
+import CustomTag from '../CustomTag';
 
 const componentPrefix = 'weave-has-dropdown';
 
-class Dropdown extends React.Component {
+export default class Dropdown extends React.Component {
   constructor() {
     super();
     this.openDropdown = this.openDropdown.bind(this);
@@ -95,4 +95,4 @@ const propTypes = {
 
 Dropdown.defaultProps = defaultProps;
 Dropdown.propTypes = propTypes;
-export default Dropdown;
+export { Dropdown };

@@ -1,6 +1,6 @@
 import React from 'react';
 import { string, number } from 'prop-types';
-import CustomTag from '../utilities/CustomTag';
+import CustomTag from '../CustomTag';
 
 import 'weave-ui/src/components/progress-bar/index.scss';
 
