@@ -12,6 +12,11 @@ describe('Button component', () => {
     expect(rendered.toJSON()).toMatchSnapshot();
   });
 
+  it('is responsive', () => {
+    wrapper.setProps({ responsive: true });
+    expect(wrapper.find(buttonClass).hasClass(`${buttonClass}--responsive`)).toEqual(true);
+  });
+
   it('handles disabled state', () => {
     wrapper.setProps({ disabled: true });
     expect(wrapper.find(buttonClass).hasClass('is-disabled')).toEqual(true);
