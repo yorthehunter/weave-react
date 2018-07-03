@@ -4,7 +4,10 @@ import Collection from '../';
 import CollectionItem from '../CollectionItem';
 
 describe('Collection', () => {
-  const props = { inset: 'sm' };
+  const props = {
+    inset: 'sm',
+    isHoverable: true,
+  };
   const wrapper = (
     <Collection {...props}>
       <CollectionItem>Item</CollectionItem>

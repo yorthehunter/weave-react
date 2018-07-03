@@ -22,7 +22,7 @@ export const Collection = (props) => {
 
   const componentClasses = [
     componentPrefix,
-    isHoverable ? `${componentPrefix}--hoverable` : null,
+    isHoverable && `${componentPrefix}--hoverable`,
     sizeModifier(size, componentPrefix),
   ];
 

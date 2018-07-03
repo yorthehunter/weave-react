@@ -14,7 +14,7 @@ describe('Button component', () => {
 
   it('is responsive', () => {
     wrapper.setProps({ responsive: true });
-    expect(wrapper.find(buttonClass).hasClass(`${buttonClass}--responsive`)).toEqual(true);
+    expect(wrapper.find(buttonClass).hasClass('weave-button--responsive')).toEqual(true);
   });
 
   it('handles disabled state', () => {

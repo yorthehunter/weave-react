@@ -2,7 +2,7 @@
 
 exports[`Collection renders correctly with default values 1`] = `
 <ul
-  class="weave-collection"
+  class="weave-collection weave-collection--hoverable"
 >
   <li
     class="weave-collection__item u-inset--sm"
