@@ -18,8 +18,7 @@ export { Spinner } from './components/Spinner';
 export { Table } from './components/Table';
 export { Tooltip } from './components/Tooltip';
 export { CustomTag } from './components/utilities/CustomTag';
-export { Icon } from './components/utilities/Icon';
-export { iconPaths } from './components/utilities/iconPaths';
+export { Icon } from './components/Icon';
 export {
   typeModifier,
   buttonTypeModifier,
