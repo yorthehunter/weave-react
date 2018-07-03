@@ -46,6 +46,18 @@ describe('Dropdown', () => {
   });
 });
 
+describe('DropdownMenu', () => {
+  it('renders with DropdownMenuItems if true', () => {
+    const wrapper = mount(
+      <DropdownMenu dropdownVisible displayAsMenuItems>
+        hi
+      </DropdownMenu>
+    );
+    expect(toJson(wrapper)).toMatchSnapshot();
+  });
+});
+
+
 describe('Dropdown', () => {
   it('renders no dropdown if no children are found', () => {
     const wrapper = shallow(<Dropdown />);

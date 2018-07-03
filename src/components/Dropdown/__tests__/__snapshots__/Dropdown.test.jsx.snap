@@ -63,3 +63,48 @@ exports[`Dropdown renders no dropdown if no children are found 1`] = `
   value={null}
 />
 `;
+
+exports[`DropdownMenu renders with DropdownMenuItems if true 1`] = `
+<DropdownMenu
+  displayAsMenuItems={true}
+  dropdownVisible={true}
+  right={false}
+  tag="ul"
+>
+  <CustomTag
+    className={null}
+    componentClasses="weave-dropdown-menu"
+    componentRef={null}
+    componentStyles={Object {}}
+    displayAsMenuItems={true}
+    dropdownVisible={true}
+    href={null}
+    onClick={null}
+    right={false}
+    style={Object {}}
+    tag="ul"
+    type={null}
+    value={null}
+  >
+    <ul
+      className="weave-dropdown-menu"
+      href={null}
+      onClick={null}
+      style={Object {}}
+      type={null}
+      value={null}
+    >
+      <DropdownMenuItem
+        content="hi"
+        key=".0"
+      >
+        <li
+          className="weave-dropdown-menu__item"
+        >
+          hi
+        </li>
+      </DropdownMenuItem>
+    </ul>
+  </CustomTag>
+</DropdownMenu>
+`;
