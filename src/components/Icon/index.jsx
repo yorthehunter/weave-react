@@ -10,7 +10,7 @@ export const Icon = (props) => {
     color,
   } = props;
 
-  const path = paths[name] || undefined;
+  const path = paths[name] || null;
 
   return (
     path ?
